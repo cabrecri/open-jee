@@ -32,9 +32,10 @@ public class HibernateConfiguration {
     BasicDataSource dataSource = new BasicDataSource();
     dataSource.setDriverClassName("com.mysql.jdbc.Driver");
     dataSource.setUrl("jdbc:mysql://mysql:3306/sampledb");
-    dataSource.setUsername("userUR4");
-    dataSource.setPassword("c7IHvsqKQmt2aE3E");
-
+    dataSource.setUsername("root");
+    dataSource.setPassword("WHRnr7kM4SGEYpmn");
+    System.out.println("...........................llllllllllllllllllllllllllllllllllllllll..........................");
+    
     return dataSource;
   }
 
