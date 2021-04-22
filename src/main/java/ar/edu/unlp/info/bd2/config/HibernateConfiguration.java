@@ -31,7 +31,7 @@ public class HibernateConfiguration {
   public DataSource dataSource() {
     BasicDataSource dataSource = new BasicDataSource();
     dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-    dataSource.setUrl("jdbc:mysql://localhost:3306/sampledb");
+    dataSource.setUrl("jdbc:mysql://mysql:3306/sampledb");
     dataSource.setUsername("userUR4");
     dataSource.setPassword("c7IHvsqKQmt2aE3E");
 
